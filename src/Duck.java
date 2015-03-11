@@ -28,4 +28,12 @@ public abstract class Duck {
         System.out.println("Alle eenden drijven, ook lokeenden!");
     } 
     
+    public void setFlyBehavior(FlyBehavior fb){
+        flyBehavior = fb;
+    }
+    
+    public void setQuackBehavior(QuackBehavior qb){
+        quackBehavior = qb;
+    }
+    
 }
